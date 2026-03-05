@@ -12,7 +12,7 @@ bars:
     class_name: "yasb-bar"
     alignment:
       position: "top"
-      center: false
+      center: true
     blur_effect:
       enabled: false
       acrylic: false
@@ -37,18 +37,18 @@ bars:
           "komorebi_workspaces",
           "komorebi_active_layout",
           "lines",
-          "taskbar",
+          "clock",
         ]
       center:
-        []
+        [
+          "taskbar",
+        ]
       right:
         [
           "media",
-          "lines",
           "cava",
-          "lines",
           "volume",
-          "clock",
+          "lines",
           "systray",
           "wallpapers",
           "power_menu"
@@ -185,11 +185,11 @@ widgets:
       label: "{win[title]}"
       label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
       label_no_window: ""
-      label_icon: true
+      label_icon: false
       label_icon_size: 14
-      max_length: 36
+      max_length: 100
       max_length_ellipsis: "..."
-      monitor_exclusive: true
+      monitor_exclusive: false
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -208,7 +208,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a %b %d %H:%M}"
+      label: "{%A, %d %B %Y %H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       tooltip: false
       timezones: []
@@ -218,7 +218,6 @@ widgets:
         blur: false
         round_corners: true
         round_corners_type: "normal"
-        offset_left: 0
   disk:
     type: "yasb.disk.DiskWidget"
     options:
@@ -232,7 +231,7 @@ widgets:
           round_corners: True
           round_corners_type: "small"
           border_color: "System"
-          alignment: "right"
+          alignment: "center"
           direction: "down"
           distance: 6
         callbacks:
@@ -288,7 +287,7 @@ widgets:
       bars_number: 12
       bar_spacing: 2
       bar_width: 4
-      foreground: "#1d2837"
+      foreground: "#e3eadf"
       sleep_timer: 0
       hide_empty: true
       container_padding:
@@ -375,9 +374,9 @@ widgets:
     options:
       icon_size: 0
       tooltip: true
-      show_only_visible: false
+      show_only_visible: true
       strict_filtering: true
-      monitor_exclusive: false
+      monitor_exclusive: true
       animation:
         enabled: true
       preview:
