@@ -1,5 +1,6 @@
 # Sousou no Frieren theme for Windows 11 (25h2)
 YASB bar requared [GoMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Go-Mono.zip).
+
 ![Screenshot 2026-04-11 221306](https://github.com/user-attachments/assets/811b6c71-02e9-4e4a-965c-ac7d7c7f40f4)
 ![Screenshot 2026-04-12 002549](https://github.com/user-attachments/assets/311ad557-b48d-40f5-9caa-1729021676a4)
 ![Screenshot 2026-04-12 003523](https://github.com/user-attachments/assets/c3d72efe-e15e-473c-ac62-d0f12c23ea27)
