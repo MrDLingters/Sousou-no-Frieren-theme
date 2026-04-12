@@ -1,15 +1,16 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.json",
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.40/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
-    "window_hiding_behaviour": "Cloak",
+  "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
+
   "transparency": false,
   "transparency_alpha": 250,
-  "default_workspace_padding": 20,
-  "default_container_padding": 5,
-  "border": true,
+  "default_workspace_padding": 8,
+  "default_container_padding": 7,
+  "border": false,
   "border_style":"Rounded",
-  "border_width": 3,
+  "border_width": 4,
   "border_offset": -1,
   "mouse_follows_focus": false,
   "animation": {
