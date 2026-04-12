@@ -2,9 +2,7 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
-    "alwaysShowNotificationIcon": true,
-    "centerOnLaunch": true,
-    "compatibility.enableUnfocusedAcrylic": true,
+    "centerOnLaunch": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -15,12 +13,12 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
-        },
-        {
             "id": "Terminal.FindText",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
         },
         {
             "id": "Terminal.DuplicatePaneAuto",
@@ -34,50 +32,68 @@
             "type": "remainingProfiles"
         }
     ],
-    "newTabPosition": "afterLastTab",
     "profiles": 
     {
         "defaults": 
         {
             "adjustIndistinguishableColors": "indexed",
-            "antialiasingMode": "cleartype",
             "colorScheme": "Frieren",
-            "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "JetBrainsMono Nerd Font"
+                "face": "GoMono Nerd Font",
+                "size": 12,
+                "weight": "normal"
             },
-            "opacity": 80,
-            "padding": "15",
-            "useAcrylic": true
+            "scrollbarState": "hidden",
+            "tabTitle": "Terminal"
         },
         "list": 
         [
             {
-                "adjustIndistinguishableColors": "indexed",
                 "colorScheme": "Frieren",
-                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -nologo",
-                "cursorShape": "bar",
-                "experimental.retroTerminalEffect": false,
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -nologo",
+                "elevate": false,
                 "font": 
                 {
-                    "face": "JetBrainsMono Nerd Font",
+                    "face": "GoMono Nerd Font",
                     "size": 12,
                     "weight": "normal"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "intenseTextStyle": "bright",
                 "name": "PowerShell",
-                "opacity": 100,
-                "scrollbarState": "hidden",
-                "source": "Windows.Terminal.PowershellCore",
-                "tabTitle": "Terminal",
-                "useAcrylic": false
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{95d71629-005d-5f59-9d16-3abfda6969fe}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{c770d422-9dda-5654-8b8d-e91d25d262e0}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "rendering.graphicsAPI": "direct3d11",
     "schemes": 
     [
         {
@@ -150,7 +166,7 @@
             "yellow": "#DFA000"
         },
         {
-            "background": "#E3EADF",
+            "background": "#D4DDD0",
             "black": "#475A58",
             "blue": "#2B4E55",
             "brightBlack": "#334247",
@@ -159,15 +175,15 @@
             "brightGreen": "#6B8276",
             "brightPurple": "#6B8276",
             "brightRed": "#395857",
-            "brightWhite": "#D4DDD0",
+            "brightWhite": "#2B4E55",
             "brightYellow": "#A1B99C",
             "cursorColor": "#2B4E55",
             "cyan": "#436961",
-            "foreground": "#1d2837",
+            "foreground": "#6B8276",
             "green": "#6D9471",
             "name": "Frieren",
             "purple": "#395857",
-            "red": "#2B4E55",
+            "red": "#6B8276",
             "selectionBackground": "#2B4E55",
             "white": "#6B8276",
             "yellow": "#6B8276"
