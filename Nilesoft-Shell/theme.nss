@@ -6,7 +6,7 @@ theme
 
 	background
 	{
-		color = #e3eadf
+		color = #d4ddd0
 		opacity = 100
 		// effect = 2
 	}
@@ -14,7 +14,7 @@ theme
 	item
 	{
 		opacity = 100
-		radius = 10
+		radius = 15
 		prefix = 1
 
 		text
@@ -34,9 +34,9 @@ theme
 
 	font
 	{
-		size = 17
-	 	name = "JetBrainsMono NFP"
-	 	weight = 2
+		size = 18
+	 	name = "GoMono Nerd Font"
+	 	weight = 3
 	 	italic = 0
 	 }
 
@@ -46,7 +46,7 @@ theme
 		size = 2
 		color = #6d9471
 		opacity = 100
-		radius = 10
+		radius = 15
 	}
 
 	shadow
@@ -60,7 +60,7 @@ theme
 	separator
 	{
 		size = 1
-		color = #e3eadf
+		color = #d4ddd0
 	}
 
 	symbol
