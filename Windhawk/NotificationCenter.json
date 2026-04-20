@@ -105,9 +105,9 @@
   "styleConstants[5]": "Border = #6d9471",
   "styleConstants[6]": "CR = 15",
   "controlStyles[1].styles[3]": "BorderBrush=$Border",
-  "controlStyles[5].styles[4]": "BorderBrush=#Border",
-  "controlStyles[6].styles[4]": "BorderBrush=#Border",
-  "controlStyles[7].styles[3]": "BorderBrush=#Border",
-  "controlStyles[9].styles[3]": "BorderBrush=#Border",
-  "controlStyles[17].styles[3]": "BorderBrush=#Border"
+  "controlStyles[5].styles[4]": "BorderBrush=$Border",
+  "controlStyles[6].styles[4]": "BorderBrush=$Border",
+  "controlStyles[7].styles[3]": "BorderBrush=$Border",
+  "controlStyles[9].styles[3]": "BorderBrush=$Border",
+  "controlStyles[17].styles[3]": "BorderBrush=$Border"
 }
